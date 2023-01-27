@@ -1,0 +1,10 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes">
+    <lightning:recordEditForm
+        objectApiName="Case">
+        <lightning:inputField fieldName="Account_Name__c"/>
+        <lightning:recordEditForm
+            objectApiName="CustomObject1__c">
+            <lightning:inputField fieldName="Account_Name__c"/>
+        </lightning:recordEditForm>
+    </lightning:recordEditForm>
+</aura:component>	
